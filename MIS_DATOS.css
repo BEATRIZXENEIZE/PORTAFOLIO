@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #fff0f5; /* rosado claro */
+  color: #444;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffe6f0; /* rosado más fuerte */
+  border-radius: 10px;
+}
+
+h1 {
+  color: #cc3366;
+}
+
+a {
+  color: #cc3366;
+}
+
+/* Mejorar visual de cada sección */
+section {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.3);
+}
+
+/* Imagen al costado izquierdo */
+.contenedor-sobre-mi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagen-sobre-mi {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ffb6c1;
+}
